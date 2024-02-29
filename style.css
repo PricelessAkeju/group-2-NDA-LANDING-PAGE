@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ #navDiv1{
+    border: 1px solid #205530;
+    width: 100vw;
+    height: 50px;
+    background-color:#205530;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border: none;
+  
+}
+nav{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100px;
+    background-color: #BFBFBF;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+    
+    & #navDiv2{
+        border: 1px solid #BFBFBF;
+        width: 100vw;
+        height: 50px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+        animation: 20s Application ease-out infinite;
+        border: none;
+
+    }
+    & #navDiv3{
+        border: 1px solid #062D00;
+        width: 100vw;
+        height: 50px;
+        background-color: #062D00;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 100px;
+        border: none;
+
+        & #navDiv31{
+            border: 1px solid black;
+            width: 350px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3px;
+            align-content: center;
+            align-items: center;
+            border: none;
+
+        }
+        & #navDiv32{
+            border: 1px solid black;
+            width: 580px;
+            height: 50px;
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3px;
+            align-content: center;
+            align-items: center;
+            color: rgb(128, 122, 122);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 40px;
+            padding-right: 40px;
+            border: none;
+
+        }
+    }
+}
+@keyframes Application {
+    from{
+transform: translate(1500px);
+
+    }
+    to{
+transform: translate(-1500px);
+
+    }
+}
