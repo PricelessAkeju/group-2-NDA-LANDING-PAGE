@@ -3,6 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
  #navDiv1{
     border: 1px solid #205530;
     width: 100vw;
@@ -92,3 +93,291 @@ transform: translate(-1500px);
 
     }
 }
+
+
+
+
+.brandinglogo img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right:0px;
+}
+.brandinglogo img, .maintenance-header img {
+    width: 400px;
+}
+
+.main1{
+    border: 1px solid black;
+    width: 1300px;
+    height: 200px;
+    padding-left: 100px;
+    border: none;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    
+}
+.text{
+    border: 2px solid white;
+   background-color: #BFBFBF;
+    height: 15px;
+    width: 1000px;
+    margin-left:100px;
+}
+.drp{
+   
+    height: 0px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: -15px;
+    
+    
+    
+
+} 
+
+
+.drp-content {
+position: absolute;
+background-color: rgba(6,56,25,0.87);
+display: grid;
+align-items: center;
+justify-content: space-around;
+grid-template-columns: auto auto auto;
+gap: 30px;
+display: none;
+height:300px;
+position: absolute;
+overflow: hidden;
+left: 0;
+width: 1200px;
+margin-left: 300px;
+/* border: 1px solid black; */
+margin: auto;
+margin-top: 110px;
+color: white;
+
+
+
+
+
+
+}
+.drp-one{
+    
+    margin-top: -120px;
+    position: absolute;
+    font-size: 15px;
+    font-family: Work Sans;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    text-transform: none;
+}
+    
+   
+
+
+.drp-two{
+   
+    margin-top: -120px;
+    margin-left: 100px;
+    font-size: 15px;
+    
+    }
+    .drp-three{
+ 
+        /* margin-top: 10px; */
+        font-size: 15px;
+        
+        
+        }
+        .border-one{
+            border: 1px solid white;
+            width: 0px;
+            height: 250px;
+            margin-left: 250px;
+            margin-top: -110px;
+        }
+        .border-two{
+            border: 1px solid white;
+            width: 0px;
+            height: 250px;
+            margin-left: 400px;
+            margin-top: -135px;
+            position: absolute;
+        }
+        .drp:hover {
+            height: 200px;
+            .drp-content {
+                display: grid;
+            }
+        }
+
+
+        .drop{
+   
+            height: 0px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: -15px;
+            
+            
+        
+        } 
+        
+        
+        .drp-content-acad {
+        position: absolute;
+        background-color: rgba(6,56,25,0.87);
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        display: none;
+        height:250px;
+        /* position: absolute; */
+        overflow: hidden;
+        left: 0;
+        width: 1000px;
+        margin-left: 300px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 130px;
+        color: white;
+        
+        
+        
+        
+        
+        
+        }
+        .drp-one-acad{
+            
+            /* margin-top: -20px; */
+           
+            font-size: 15px;
+            
+           
+        
+        }
+        .drp-two-acad{
+           
+            /* margin-top: -80px; */
+           
+            font-size: 15px;
+            
+            }
+            .drp-three-acad{
+         
+                margin-top: -61px;
+           
+            font-size: 15px;
+               
+                
+                
+                }
+                .border-one-acad{
+                    border: 1px solid white;
+                    width: 0px;
+                    height: 200px;
+                    margin-left: 250px;
+                    margin-top: -170px;
+                    position: absolute;
+                }
+                .border-two-acad{
+                    border: 1px solid white;
+                    width: 0px;
+                    height: 200px;
+                    margin-left: 250px;
+                    margin-top: -10px;
+                    position: absolute;
+                }
+                .drop:hover {
+                    height: 200px;
+                    .drp-content-acad {
+                        display: grid;
+                    }
+                }
+                
+
+                .drop-res{
+   
+                    height: 0px;
+                    cursor: pointer;
+                    font-weight: 600;
+                    margin-top: -15px;
+                    
+                    
+                
+                } 
+                
+                
+                .drp-content-res {
+                position: absolute;
+                background-color: rgba(6,56,25,0.87);
+                display: grid;
+                align-items: center;
+                justify-content: space-around;
+                grid-template-columns: auto auto ;
+                gap: 30px;
+                display: none;
+                height:180px;
+                position: absolute;
+                overflow: hidden;
+                left: 0;
+                width: 1000px;
+                margin-left: 300px;
+                /* border: 1px solid blue; */
+                margin: auto;
+                margin-top: 130px;
+                color: white;
+                
+                
+                
+                
+                
+                
+                }
+                .drp-one-res{
+                    
+                    /* margin-top: -20px; */
+                   
+                    font-size: 15px;
+                    
+                   
+                
+                }
+                
+                    .drp-three-res{
+                 
+                        margin-top: -40px;
+                   
+                        font-size: 15px;
+                       
+                        
+                        
+                        }
+                        .border-one-res{
+                            border: 1px solid white;
+                            width: 0px;
+                            height: 130px;
+                            margin-left: 420px;
+                            margin-top: -110px;
+                            position: absolute;
+                        }
+                        
+                        .drop-res:hover {
+                            height: 200px;
+                            .drp-content-res {
+                                display: grid;
+                            }
+                        }
+                                             
+                        
+        
