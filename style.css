@@ -327,6 +327,42 @@ color: white;
                                 display: grid;
                             }
                         }
+                        .water{
+                            text-align: center;
+                            color: rgb(22, 117, 22);
+                            font-size: 40px;
+                            font-weight: 100;
+                        }
+
+                        /* MAIN1 END HERE */
+                        .bottle{
+                            text-align: center;
+                            color: red;
+                            font-size: 30px;
+                            font-weight: 100px;
+                            margin-top: 30px;
+                        }
+                        .kite{
+                            display: inline-flex;
+                            margin-top: 50px;
+                        }
+                        .hot{
+                            color: rgb(206, 191, 164);
+                        }
+                        .text1{
+                            border: 2px solid white;
+   background-color: #d4d1d1;
+                 height: 12px;
+    width: 1170px;
+    margin-top: -20px;
+    margin-left:20px;
+                        }
+                        
+                         @media  screen and (max-width:768px){
+                            .kite{
+                                display: inline-block;
+                            }
+                         }
                                              
                         
         
