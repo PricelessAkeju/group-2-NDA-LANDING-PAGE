@@ -364,5 +364,68 @@ color: white;
                             }
                          }
                                              
+                        /* main2 ends here */
+                        *{
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        .futa{
+                            width: 100vw;
+                            height: 50vh;
+                            background-color: black;
+                            border: 1px solid rgb(7, 5, 5);
+                            position:relative ;
+                            margin-top: 300px;
+                        }
+                        .directories{
+                            min-height: 100px;
+                            font-size: 5px;
+                            display: flex;
+                            justify-content:space-evenly;
+                            margin-top: 25px;
+                            
+                        }
+                        .about{
+                            font-size:12px;
+                            color:rgb(68, 60, 60);
                         
+                        }
+                        .about a{
+                            text-decoration: none;
+                        }
+                        .about a:hover{
+                            background-color: rgb(221, 228, 228);
+                        }
+                        
+                        .direct{
+                            font-size: 12px;
+                            color: rgb(82, 77, 77);
+                        }
+                        .direct a{
+                            text-decoration: none;
+                        }
+                        .direct a:hover{
+                        background-color: rgb(233, 240, 240);
+                        }
+                        .Academ{
+                            font-size: 12px;
+                            color: rgb(107, 102, 102);
+                        }
+                        .Academ a{
+                            text-decoration: none;
+                        }
+                        .Academ a:hover{
+                            background-color: rgb(223, 228, 228);
+                        }
+                        .contact{
+                            font-size: 12px;
+                            color: rgb(103, 97, 97);
+                        }
+                        .contact a {
+                            text-decoration: none;
+                        }
+                        .contact a:hover{
+                            background-color: rgb(207, 215, 215);
+                        }
         
